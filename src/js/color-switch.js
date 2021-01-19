@@ -35,6 +35,5 @@ function startSwitch(e) {
 
 function stopSwitch() {
   clearInterval(intervalId);
-  intervalId = null;
   refs.startBtn.disabled = false;
 }
